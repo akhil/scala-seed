@@ -8,6 +8,7 @@ val slickVersion = "3.1.1"
 
 libraryDependencies ++= Seq(
 	"com.typesafe.akka" %% "akka-actor" % akkaVersion withSources() withJavadoc(),
+	"com.typesafe.akka" %% "akka-remote" % akkaVersion withSources() withJavadoc(),
 	"com.typesafe.akka" %% "akka-testkit" % akkaVersion % Test withSources() withJavadoc(),
 	"com.typesafe.akka" %% "akka-http" % akkaHttpVersion withSources() withJavadoc(),
 	"com.typesafe.akka" %% "akka-http-jackson" % akkaHttpVersion withSources() withJavadoc(),

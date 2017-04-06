@@ -2,9 +2,9 @@ name := "scala-seed"
 
 scalaVersion in ThisBuild := "2.11.8"
 
-val akkaVersion = "2.4.16"
-val akkaHttpVersion = "10.0.3"
-val slickVersion = "3.1.1"
+val akkaVersion = "2.4.17"
+val akkaHttpVersion = "10.0.5"
+val slickVersion = "3.2.0"
 
 libraryDependencies ++= Seq(
 	"com.typesafe.akka" %% "akka-actor" % akkaVersion,
